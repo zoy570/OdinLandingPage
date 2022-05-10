@@ -4,16 +4,50 @@ header{
     background-color: #1F2937;
     color: #F9FAF8;
     
+    
 }
 
 
-main{
+main h2{
+    text-align: center;
+    
+}
+
+header a{
+    color: #F9FAF8;
+    text-decoration: none;
+   
+}
+
+header button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 25px;
+    width: 75px;
+    color: #F9FAF8;
 
 }
 
 section{
 
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+
 }
+
+section h4{
+    text-align: right;
+}
+
 
 footer{
 
@@ -24,3 +58,5 @@ li{
     display: inline;
     
 }
+
+
