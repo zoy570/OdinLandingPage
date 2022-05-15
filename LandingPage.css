@@ -1,5 +1,13 @@
 /* LandingPage.css */
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* HEADER */
+
 header{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -7,10 +15,27 @@ header{
     
 }
 
+/* Creating boxes side by side header */
+.container-header div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
 
-main h2{
-    text-align: center;
-    
+.container-header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-1{
+    width:35%;
+    height:10%;
+}
+
+.header-2{
+        text-align: center;
+        width:35%;
+        height:10%;
+        background:rgb(125, 125, 131);
 }
 
 header a{
@@ -28,6 +53,42 @@ header button{
     color: #F9FAF8;
 
 }
+
+/* MAIN */
+
+main{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+main h1{
+    text-align: center;
+    
+}
+
+main p{
+    text-align: center;
+}
+
+main img{
+
+    float: left;
+
+}
+
+.container-1 div{
+    
+    padding: 10px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION */
 
 section{
 
@@ -49,14 +110,47 @@ section h4{
 }
 
 
-footer{
-
-
-}
 
 li{
     display: inline;
     
 }
 
+/* FOOTER */
+
+footer div{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 50px;
+    padding: 1px;
+
+}
+
+.container-footer div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.container footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*Example for creating side by side boxes with border
+
+.container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+
+*/
 
