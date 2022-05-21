@@ -1,7 +1,11 @@
 /* LandingPage.css */
 
+
+
 *{
     font-family: 'Roboto', sans-serif;
+    text-size-adjust: auto;
+    
 }
 
 
@@ -13,22 +17,40 @@ header{
     color: #F9FAF8;
     
     
+    
 }
+
+
 
 /* Creating boxes side by side header */
 .container-header div{
-    border: 1px #ccc solid;
-    padding: 10px;
+    /*border: 1px #ccc solid; */
+    
 }
 
 .container-header{
     display: flex;
     justify-content: center;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+header h3{
+    float: left;
+    padding-left: 5px;
+}
+header ul{
+    float: right;
+    padding-right: 5px;
 }
 
 .header-1{
     width:35%;
     height:10%;
+  
 }
 
 .header-2{
@@ -51,6 +73,7 @@ header button{
     height: 25px;
     width: 75px;
     color: #F9FAF8;
+    border: none;
 
 }
 
@@ -90,7 +113,7 @@ main img{
 
 /* SECTION */
 
-section{
+section.three{
 
     background-color: #E5E7EB;
     font-size: 36px;
@@ -118,22 +141,40 @@ li{
 
 /* FOOTER */
 
-footer div{
+
+footer section{
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 50px;
-    padding: 1px;
+    margin: 100px;
+    border: 1px #ccc solid;
 
+}
+
+footer button{
+   
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    height: 35px;
+    width: 100px;
+    color: #F9FAF8;
+    margin: 50%;
 }
 
 .container-footer div{
-    border: 1px #ccc solid;
+
     padding: 10px;
 }
 
-.container footer{
+footer section{
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
